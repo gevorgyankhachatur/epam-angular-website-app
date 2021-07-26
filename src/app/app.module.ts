@@ -10,6 +10,7 @@ import { NewsComponent } from './news/news.component';
 import { ServiceComponent } from './service/service.component';
 import { TrainerComponent } from './trainer/trainer.component';
 import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     ServiceComponent,
     TrainerComponent,
     HomeComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
